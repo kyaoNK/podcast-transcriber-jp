@@ -1,0 +1,29 @@
+# Build artifacts
+/build/
+/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Settings (user-local)
+.transcribe_gui_settings.json
+
+# Runtime
+*.log
+transcribe_gui_crash.log
+models/
+
+# OS
+Thumbs.db
+.DS_Store

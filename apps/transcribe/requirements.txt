@@ -1,0 +1,12 @@
+# podcast-transcriber-jp 共通依存
+# CPU/GPU どちらでも動く（GPU 利用時は ctranslate2 が自動でCUDAを検出）
+
+faster-whisper==1.2.1
+ctranslate2==4.7.1
+soundfile==0.13.1
+numpy==2.4.4
+scipy
+huggingface-hub==0.24.7
+tkinterdnd2
+SudachiPy
+SudachiDict-core
